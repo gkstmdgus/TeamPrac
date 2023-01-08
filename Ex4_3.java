@@ -1,8 +1,8 @@
 import java.util.Scanner; // ScannerŬ������ ����ϱ� ���� �߰�
 
 class Ex4_3 {
-	public static void main(String[] args) {  
-		System.out.print("���ڸ� �ϳ� �Է��ϼ���.>");
+	public static void main(String[] args) {
+		System.out.print("GeonHo lee가 했습니다.");
 		Scanner scanner = new Scanner(System.in);
 		int input = scanner.nextInt(); // ȭ���� ���� �Է¹��� ���ڸ� input�� ����
 
