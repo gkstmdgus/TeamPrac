@@ -7,7 +7,7 @@ class Ex4_3 {
 		int input = scanner.nextInt(); // ȭ���� ���� �Է¹��� ���ڸ� input�� ����
 
 		if(input==0) {
-			System.out.println("�Է��Ͻ� ���ڴ� 0�Դϴ�.");	
+			System.out.println("NA");	
 		} else { // input!=0�� ���
 			System.out.println("han");
 		}
