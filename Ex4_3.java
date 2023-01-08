@@ -1,15 +1,15 @@
-import java.util.Scanner; // ScannerÅ¬·¡½º¸¦ »ç¿ëÇÏ±â À§ÇØ Ãß°¡
+import java.util.Scanner; // ScannerÅ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 
 class Ex4_3 {
 	public static void main(String[] args) {  
-		System.out.print("¼ıÀÚ¸¦ ÇÏ³ª ÀÔ·ÂÇÏ¼¼¿ä.>");
+		System.out.print("GeonHo leeê°€ í–ˆìŠµë‹ˆë‹¤.");
 		Scanner scanner = new Scanner(System.in);
-		int input = scanner.nextInt(); // È­¸éÀ» ÅëÇØ ÀÔ·Â¹ŞÀº ¼ıÀÚ¸¦ input¿¡ ÀúÀå
+		int input = scanner.nextInt(); // È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·Â¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ inputï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 		if(input==0) {
-			System.out.println("ÀÔ·ÂÇÏ½Å ¼ıÀÚ´Â 0ÀÔ´Ï´Ù.");	
-		} else { // input!=0ÀÎ °æ¿ì
-			System.out.println("ÀÔ·ÂÇÏ½Å ¼ıÀÚ´Â 0ÀÌ ¾Æ´Õ´Ï´Ù.");
+			System.out.println("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½Ú´ï¿½ 0ï¿½Ô´Ï´ï¿½.");	
+		} else { // input!=0ï¿½ï¿½ ï¿½ï¿½ï¿½
+			System.out.println("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½Ú´ï¿½ 0ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
 		}
-	} // mainÀÇ ³¡
+	} // mainï¿½ï¿½ ï¿½ï¿½
 }
